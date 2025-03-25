@@ -63,6 +63,8 @@ The assistant has access to various tools for performing blockchain operations:
 #### Read Operations
 - **get_balance**: Check wallet balances on the Linea network
 - **get_wallet_address**: Retrieve the connected wallet's address
+- **get_token_balances**: Retrieve the token balances in a Linea wallet.
+- **get_token_prices**: Retrieve the value (in USDC) for any Linea token (including ETH).
 
 
 #### Write Operations
