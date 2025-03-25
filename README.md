@@ -26,8 +26,8 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/techgethr/aineum.git
-   cd aineum
+   git clone https://github.com/web3-explorers/lineai.git
+   cd lineai
    ```
 
 2. Install dependencies:
