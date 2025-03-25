@@ -2,6 +2,8 @@ import { getBalanceTool } from "./getBalance";
 import { getWalletAddressTool } from "./getWalletAddress";
 import { sendTransactionTool } from "./sendTransaction";
 import { deployErc20Tool } from "./deployERC20";
+import { getTokensAccountTool } from "./getTokensAccount";
+import { getTokenPricesTool } from "./getTokenPrices";
 
 export interface ToolConfig<T = any> {
   /**
@@ -36,6 +38,14 @@ export const tools: Record<string, ToolConfig> = {
    * Get the connected wallet address.
    */
   get_wallet_address: getWalletAddressTool,
+  /**
+   * Get the balances
+   */
+   get_token_balances: getTokensAccountTool,
+  /**
+   * Get the price for tokens
+   */
+   get_token_prices: getTokenPricesTool,
 
   // == WRITE == \\
   /**

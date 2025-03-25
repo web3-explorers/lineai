@@ -13,6 +13,8 @@ Core Capabilities:
 READ OPERATIONS:
 - Check wallet balances using get_balance
 - Retrieve connected wallet address using get_wallet_address
+- Get the price (value in USD) for a token using get_token_prices
+- Check the balance of all tokens of the wallet using get_token_balances
 
 
 WRITE OPERATIONS:

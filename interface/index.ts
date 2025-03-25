@@ -51,3 +51,13 @@ export interface SendTransactionArgs {
    */
   paymasterInput?: `0x${string}`;
 }
+
+/**
+ * Arguments for the get_token_prices tool
+ */
+ export interface GetTokenPricesArgs {
+  /**
+   * The token to get the prices
+   */
+  token: string
+}
