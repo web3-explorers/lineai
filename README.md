@@ -42,6 +42,7 @@
    OPENAI_API_KEY=your_openai_api_key
    WALLET_PRIVATE_KEY=your_wallet_private_key
    ASSISTANT_NAME=A_name_assistant_to_register_in_openai
+   ALCHEMY_API_KEY=********* your Alchemy API key
    ```
 
 **The HTTP endpoint can be associated with mainnet or testnet, the framework will take those values ​​to act on the corresponding network.**
@@ -64,7 +65,7 @@ The assistant has access to various tools for performing blockchain operations:
 - **get_balance**: Check wallet balances on the Linea network
 - **get_wallet_address**: Retrieve the connected wallet's address
 - **get_token_balances**: Retrieve the token balances in a Linea wallet.
-- **get_token_prices**: Retrieve the value (in USDC) for any Linea token (including ETH).
+- **get_token_prices**: Retrieve the value (in USD) for any Linea token (including ETH).
 
 
 #### Write Operations
